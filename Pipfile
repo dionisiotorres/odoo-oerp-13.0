@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+yapf = "*"
 
 [packages]
 chardet = "==3.0.4"
