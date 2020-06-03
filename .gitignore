@@ -1,4 +1,4 @@
-.vscode
+Pipfile.lock
 addons-network
 addons-custom-*
 addons-deprecated
