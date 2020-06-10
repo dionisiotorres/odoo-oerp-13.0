@@ -13,8 +13,16 @@
 [submodule "addons-server-tools"]
 	path = addons-server-tools
 	url = https://github.com/oerp-at/addons-server-tools
-	branch = 13.0
+	branch = 13.0-oerp
 [submodule "addons-reporting-engine"]
 	path = addons-reporting-engine
 	url = https://github.com/oerp-at/addons-reporting-engine 
-	branch = 13.0
+	branch = 13.0-oerp
+[submodule "addons-queue"]
+	path = addons-queue
+	url = https://github.com/oerp-at/addons-queue 
+  branch = 13.0-oerp
+[submodule "addons-automation"]
+	path = addons-automation
+	url = https://github.com/oerp-at/addons-automation
+  branch = 13.0-oerp
