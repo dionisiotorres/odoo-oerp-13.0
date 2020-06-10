@@ -48,6 +48,8 @@ Pillow = "==5.4.1"
 PyPDF2 = "==1.26.0"
 Werkzeug = "==0.14.1"
 XlsxWriter = "==0.9.3"
+"py3o.template" = "*"
+"py3o.formats" = "*"
 
 [requires]
 python_version = "3.6"
