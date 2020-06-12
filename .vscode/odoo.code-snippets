@@ -21,7 +21,7 @@
             "\t'author': 'funkring',",
             "\t'maintainer': 'funkring',",
             "\t'website': 'https://github.com/oerp-at',",
-            "\t'license': 'APGL-3',",
+            "\t'license': 'LGPL-3',",
             "\t'contributors': [",
             "\t\t'funkring',",
             "\t],",
