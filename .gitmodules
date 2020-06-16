@@ -21,7 +21,7 @@
 [submodule "addons-queue"]
 	path = addons-queue
 	url = https://github.com/oerp-at/addons-queue 
-  branch = 13.0-oerp
+  	branch = 13.0-oerp
 [submodule "addons-automation"]
 	path = addons-automation
 	url = https://github.com/oerp-at/addons-automation
