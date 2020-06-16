@@ -26,3 +26,7 @@
 	path = addons-automation
 	url = https://github.com/oerp-at/addons-automation
   branch = 13.0-oerp
+[submodule "addons-server-auth"]
+	path = addons-server-auth
+  url = https://github.com/oerp-at/addons-server-auth
+	branch = 13.0-oerp
