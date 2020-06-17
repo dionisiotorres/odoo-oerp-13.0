@@ -13,7 +13,11 @@
 		"python.linting.pylintEnabled": true,
 		"python.linting.pylintArgs": [
 			"--load-plugins",
-			"pylint_odoo"
+			"pylint_odoo",
+			"--disable",
+			"no-member",
+			"--disable",
+			"protected-access"
 		],
 		"python.formatting.provider": "yapf",
 		//"python.formatting.yapfPath": "optional: path to python use if you have environment path",
