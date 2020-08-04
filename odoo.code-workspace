@@ -11,15 +11,15 @@
 		"python.linting.enabled": true,	
 		//load the pylint_odoo
 		"python.linting.pylintEnabled": true,
-		"python.linting.pylintArgs": [
+		"python.linting.pylintArgs": [			
 			"--load-plugins",
 			"pylint_odoo",
+			"--max-line-length=120",
 			"--disable",
-			"no-member",
-			"--disable",
-			"protected-access"
+			"no-member,protected-access,missing-docstring,bare-except,broad-except,unnecessary-utf8-coding-comment"
 		],
 		"python.formatting.provider": "yapf",
+		"python.formatting.yapfArgs": ["--style={ based_on_style: pep8, column_limit: 120 }"],
 		//"python.formatting.yapfPath": "optional: path to python use if you have environment path",
 		// "python.linting.pycodestylePath": "optional: path to python use if you have environment path",
 		"python.linting.pycodestyleEnabled": false,
